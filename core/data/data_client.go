@@ -1,11 +1,10 @@
 package data
 
 import (
+	"context"
 	"sync/atomic"
 
 	"github.com/pemako/ws/core/biz"
-
-	"context"
 )
 
 const closeFlag int32 = 1
